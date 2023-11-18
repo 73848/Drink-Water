@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(26, 108, 202);
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-size: large;
+}
+#garrafa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    height: 375px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 4px solid blue;
+    background-color: azure;
+}
+#garrafa2{
+    width: 168px;
+    height: 10%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 14px;
+    background-color: rgb(18, 31, 220);
+}
+#principal2, #garrafa2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#controle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 47vh;
+    width: 248px;
+}
+.acrecimo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid blue;
+    background-color: azure;
+    width: 50px;
+    height: 100px;
+}
+.garrafinha{
+    color: white;    
+    background-color: rgb(26, 108, 202);
+}
+#controle, #garrafa{
+    color: rgb(111, 111, 222);
+}
